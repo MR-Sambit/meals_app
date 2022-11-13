@@ -45,9 +45,9 @@ class Maindrawer extends StatelessWidget {
           SizedBox(
             height: 25,
           ),
-          buildListTile('Premium Version', Icons.superscript_sharp, () {
-            Navigator.of(context).pushReplacementNamed(Premium.routeName);
-          }),
+          // buildListTile('Premium Version', Icons.superscript_sharp, () {
+          //   Navigator.of(context).pushReplacementNamed(Premium.routeName);
+          // }),
           buildListTile('Meals', Icons.restaurant, () {
             Navigator.of(context).pushReplacementNamed('/');
           }),
